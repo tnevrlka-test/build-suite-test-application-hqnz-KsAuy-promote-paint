@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: test-annotations-xnol
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/tnevrlka-test/build-e2e-zhsd-tenant/build-suite-test-application-hqnz/test-annotations-xnol@sha256:61d3a339caa52db87b85901bc664a356dba463fccb0cebc76f466951a8f60203
+        name: my-nginx
+        resources: {}
+status: {}
